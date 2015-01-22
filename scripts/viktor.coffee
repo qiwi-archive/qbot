@@ -13,7 +13,7 @@ module.exports = (robot) ->
   viktorReplys = ['Я Виктор', 'Виктор!', 'Виктор я!', 'Виктор.']
 
   robot.head /виктор/i, (msg) ->
-    msg.send msg.random voktorReplys
+    msg.send msg.random viktorReplys
 
   # robot.hear /badger/i, (msg) ->
   #   msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
