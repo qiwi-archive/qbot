@@ -1,0 +1,424 @@
+Thu, 22 Jan 2015 13:36:16 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 13:36:16 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 17:36:16 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 17:36:17 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 17:36:19 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 17:36:19 GMT+0400 (MSK)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Thu Jan 22 2015 17:36:19 GMT+0400 (MSK)] INFO Using default redis on localhost:6379
+[Thu Jan 22 2015 17:40:29 GMT+0400 (MSK)] ERROR ReferenceError: fillAddress is not defined
+  at TextListener.callback (/usr/share/qbot/node_modules/hubot-maps/src/maps.coffee:58:16, <js>:57:18)
+  at TextListener.Listener.call (/usr/share/qbot/node_modules/hubot/src/listener.coffee:27:7, <js>:23:14)
+  at Robot.receive (/usr/share/qbot/node_modules/hubot/src/robot.coffee:197:9, <js>:142:33)
+  at SlackBot.Adapter.receive (/usr/share/qbot/node_modules/hubot/src/adapter.coffee:66:5, <js>:47:25)
+  at SlackBot.message (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:135:7, <js>:166:21)
+  at Client.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:1:1, <js>:3:61)
+  at Client.emit (events.js:95:17)
+  at Client.onMessage (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/src/client.js:439:14)
+  at WebSocket.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/src/client.js:142:24)
+  at WebSocket.emit (events.js:98:17)
+  at Receiver.self._receiver.ontext (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:697:10)
+  at Receiver.opcodes.1.finish (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:397:14)
+  at Receiver.expectHandler (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:384:31)
+  at Receiver.add (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:93:24)
+  at CleartextStream.firstHandler (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:678:22)
+  at CleartextStream.emit (events.js:95:17)
+  at CleartextStream.<anonymous> (_stream_readable.js:765:14)
+  at CleartextStream.emit (events.js:92:17)
+  at emitReadable_ (_stream_readable.js:427:10)
+  at _stream_readable.js:420:7
+  at process._tickCallback (node.js:442:13)
+
+Thu, 22 Jan 2015 13:45:16 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 13:45:16 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 17:45:16 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 17:45:17 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 17:45:18 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 17:45:19 GMT+0400 (MSK)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Thu Jan 22 2015 17:45:19 GMT+0400 (MSK)] INFO Using default redis on localhost:6379
+Thu, 22 Jan 2015 13:50:23 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 13:50:23 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 17:50:24 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 17:50:25 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 17:50:26 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 17:50:26 GMT+0400 (MSK)] ERROR Unable to load /usr/share/qbot/node_modules/hubot-scripts/src/scripts/defprogramming: Error: Cannot find module 'soupselect'
+  at Function.Module._resolveFilename (module.js:338:15)
+  at Function.Module._load (module.js:280:25)
+  at Module.require (module.js:364:17)
+  at require (module.js:380:17)
+  at Object.<anonymous> (/usr/share/qbot/node_modules/hubot-scripts/src/scripts/defprogramming.coffee:17:14, <js>:4:12)
+  at Object.<anonymous> (/usr/share/qbot/node_modules/hubot-scripts/src/scripts/defprogramming.coffee:17:1, <js>:21:4)
+  at Module._compile (module.js:456:26)
+  at Object.loadFile (/usr/share/qbot/node_modules/hubot/node_modules/coffee-script/lib/coffee-script/coffee-script.js:182:19)
+  at Module.load (/usr/share/qbot/node_modules/hubot/node_modules/coffee-script/lib/coffee-script/coffee-script.js:211:36)
+  at Function.Module._load (module.js:312:12)
+  at Module.require (module.js:364:17)
+  at require (module.js:380:17)
+  at Robot.loadFile (/usr/share/qbot/node_modules/hubot/src/robot.coffee:217:9, <js>:163:20)
+  at Robot.loadHubotScripts (/usr/share/qbot/node_modules/hubot/src/robot.coffee:250:7, <js>:198:28)
+  at SlackBot.loadScripts (/usr/share/qbot/node_modules/hubot/bin/hubot:105:11, <js>:104:19)
+  at SlackBot.emit (events.js:92:17)
+  at SlackBot.open (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:80:5, <js>:117:19)
+  at Client.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:1:1, <js>:3:61)
+  at Client.emit (events.js:92:17)
+  at WebSocket.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/src/client.js:119:17)
+  at WebSocket.emit (events.js:92:17)
+  at WebSocket.establishConnection (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:729:8)
+  at ClientRequest.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:642:25)
+  at ClientRequest.g (events.js:180:16)
+  at ClientRequest.emit (events.js:106:17)
+  at CleartextStream.socketOnData (http.js:1617:11)
+  at CleartextStream.read [as _read] (tls.js:514:12)
+  at CleartextStream.Readable.read (_stream_readable.js:341:10)
+  at EncryptedStream.write [as _write] (tls.js:369:25)
+  at doWrite (_stream_writable.js:226:10)
+  at writeOrBuffer (_stream_writable.js:216:5)
+  at EncryptedStream.Writable.write (_stream_writable.js:183:11)
+  at write (_stream_readable.js:602:24)
+  at flow (_stream_readable.js:611:7)
+  at Socket.pipeOnReadable (_stream_readable.js:643:5)
+  at Socket.emit (events.js:92:17)
+  at emitReadable_ (_stream_readable.js:427:10)
+  at emitReadable (_stream_readable.js:423:5)
+  at readableAddChunk (_stream_readable.js:166:9)
+  at Socket.Readable.push (_stream_readable.js:128:10)
+  at TCP.onread (net.js:529:21)
+
+Thu, 22 Jan 2015 13:51:22 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 13:51:22 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 17:51:22 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 17:51:23 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 17:51:25 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 17:51:25 GMT+0400 (MSK)] ERROR Unable to load /usr/share/qbot/node_modules/hubot-scripts/src/scripts/defprogramming: Error: Cannot find module 'soupselect'
+  at Function.Module._resolveFilename (module.js:338:15)
+  at Function.Module._load (module.js:280:25)
+  at Module.require (module.js:364:17)
+  at require (module.js:380:17)
+  at Object.<anonymous> (/usr/share/qbot/node_modules/hubot-scripts/src/scripts/defprogramming.coffee:17:14, <js>:4:12)
+  at Object.<anonymous> (/usr/share/qbot/node_modules/hubot-scripts/src/scripts/defprogramming.coffee:17:1, <js>:21:4)
+  at Module._compile (module.js:456:26)
+  at Object.loadFile (/usr/share/qbot/node_modules/hubot/node_modules/coffee-script/lib/coffee-script/coffee-script.js:182:19)
+  at Module.load (/usr/share/qbot/node_modules/hubot/node_modules/coffee-script/lib/coffee-script/coffee-script.js:211:36)
+  at Function.Module._load (module.js:312:12)
+  at Module.require (module.js:364:17)
+  at require (module.js:380:17)
+  at Robot.loadFile (/usr/share/qbot/node_modules/hubot/src/robot.coffee:217:9, <js>:163:20)
+  at Robot.loadHubotScripts (/usr/share/qbot/node_modules/hubot/src/robot.coffee:250:7, <js>:198:28)
+  at SlackBot.loadScripts (/usr/share/qbot/node_modules/hubot/bin/hubot:105:11, <js>:104:19)
+  at SlackBot.emit (events.js:92:17)
+  at SlackBot.open (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:80:5, <js>:117:19)
+  at Client.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:1:1, <js>:3:61)
+  at Client.emit (events.js:92:17)
+  at WebSocket.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/src/client.js:119:17)
+  at WebSocket.emit (events.js:92:17)
+  at WebSocket.establishConnection (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:729:8)
+  at ClientRequest.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:642:25)
+  at ClientRequest.g (events.js:180:16)
+  at ClientRequest.emit (events.js:106:17)
+  at CleartextStream.socketOnData (http.js:1617:11)
+  at CleartextStream.read [as _read] (tls.js:514:12)
+  at CleartextStream.Readable.read (_stream_readable.js:341:10)
+  at EncryptedStream.write [as _write] (tls.js:369:25)
+  at doWrite (_stream_writable.js:226:10)
+  at writeOrBuffer (_stream_writable.js:216:5)
+  at EncryptedStream.Writable.write (_stream_writable.js:183:11)
+  at write (_stream_readable.js:602:24)
+  at flow (_stream_readable.js:611:7)
+  at Socket.pipeOnReadable (_stream_readable.js:643:5)
+  at Socket.emit (events.js:92:17)
+  at emitReadable_ (_stream_readable.js:427:10)
+  at emitReadable (_stream_readable.js:423:5)
+  at readableAddChunk (_stream_readable.js:166:9)
+  at Socket.Readable.push (_stream_readable.js:128:10)
+  at TCP.onread (net.js:529:21)
+
+Thu, 22 Jan 2015 13:52:19 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 13:52:19 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 17:52:19 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 17:52:20 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 17:52:21 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 17:52:21 GMT+0400 (MSK)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Thu Jan 22 2015 17:52:22 GMT+0400 (MSK)] INFO Using default redis on localhost:6379
+Thu, 22 Jan 2015 13:54:52 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 13:54:52 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 17:54:52 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 17:54:54 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 17:54:55 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 17:54:55 GMT+0400 (MSK)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Thu Jan 22 2015 17:54:55 GMT+0400 (MSK)] INFO Using default redis on localhost:6379
+Thu, 22 Jan 2015 13:58:30 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 13:58:30 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 17:58:30 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 17:58:31 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 17:58:32 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 17:58:32 GMT+0400 (MSK)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Thu Jan 22 2015 17:58:33 GMT+0400 (MSK)] INFO Using default redis on localhost:6379
+Thu, 22 Jan 2015 14:03:54 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 14:03:54 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 18:03:54 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 18:03:55 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 18:03:56 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 18:03:56 GMT+0400 (MSK)] ERROR Unable to load /usr/share/qbot/node_modules/hubot-scripts/src/scripts/wikipedia: Error: Cannot find module 'underscore'
+  at Function.Module._resolveFilename (module.js:338:15)
+  at Function.Module._load (module.js:280:25)
+  at Module.require (module.js:364:17)
+  at require (module.js:380:17)
+  at Object.<anonymous> (/usr/share/qbot/node_modules/hubot-scripts/src/scripts/wikipedia.coffee:19:14, <js>:4:7)
+  at Object.<anonymous> (/usr/share/qbot/node_modules/hubot-scripts/src/scripts/wikipedia.coffee:19:1, <js>:111:4)
+  at Module._compile (module.js:456:26)
+  at Object.loadFile (/usr/share/qbot/node_modules/hubot/node_modules/coffee-script/lib/coffee-script/coffee-script.js:182:19)
+  at Module.load (/usr/share/qbot/node_modules/hubot/node_modules/coffee-script/lib/coffee-script/coffee-script.js:211:36)
+  at Function.Module._load (module.js:312:12)
+  at Module.require (module.js:364:17)
+  at require (module.js:380:17)
+  at Robot.loadFile (/usr/share/qbot/node_modules/hubot/src/robot.coffee:217:9, <js>:163:20)
+  at Robot.loadHubotScripts (/usr/share/qbot/node_modules/hubot/src/robot.coffee:250:7, <js>:198:28)
+  at SlackBot.loadScripts (/usr/share/qbot/node_modules/hubot/bin/hubot:105:11, <js>:104:19)
+  at SlackBot.emit (events.js:92:17)
+  at SlackBot.open (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:80:5, <js>:117:19)
+  at Client.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:1:1, <js>:3:61)
+  at Client.emit (events.js:92:17)
+  at WebSocket.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/src/client.js:119:17)
+  at WebSocket.emit (events.js:92:17)
+  at WebSocket.establishConnection (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:729:8)
+  at ClientRequest.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:642:25)
+  at ClientRequest.g (events.js:180:16)
+  at ClientRequest.emit (events.js:106:17)
+  at CleartextStream.socketOnData (http.js:1617:11)
+  at CleartextStream.read [as _read] (tls.js:514:12)
+  at CleartextStream.Readable.read (_stream_readable.js:341:10)
+  at EncryptedStream.write [as _write] (tls.js:369:25)
+  at doWrite (_stream_writable.js:226:10)
+  at writeOrBuffer (_stream_writable.js:216:5)
+  at EncryptedStream.Writable.write (_stream_writable.js:183:11)
+  at write (_stream_readable.js:602:24)
+  at flow (_stream_readable.js:611:7)
+  at Socket.pipeOnReadable (_stream_readable.js:643:5)
+  at Socket.emit (events.js:92:17)
+  at emitReadable_ (_stream_readable.js:427:10)
+  at emitReadable (_stream_readable.js:423:5)
+  at readableAddChunk (_stream_readable.js:166:9)
+  at Socket.Readable.push (_stream_readable.js:128:10)
+  at TCP.onread (net.js:529:21)
+
+Thu, 22 Jan 2015 14:04:54 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 14:04:54 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 18:04:54 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 18:04:55 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 18:04:56 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 18:04:56 GMT+0400 (MSK)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Thu Jan 22 2015 18:04:56 GMT+0400 (MSK)] INFO Using default redis on localhost:6379
+Thu, 22 Jan 2015 14:09:09 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 14:09:09 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 18:09:09 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 18:09:11 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 18:09:12 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 18:09:13 GMT+0400 (MSK)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Thu Jan 22 2015 18:09:13 GMT+0400 (MSK)] INFO Using default redis on localhost:6379
+Thu, 22 Jan 2015 14:12:05 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 14:12:05 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 18:12:05 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 18:12:06 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 18:12:07 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 18:12:08 GMT+0400 (MSK)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Thu Jan 22 2015 18:12:08 GMT+0400 (MSK)] INFO Using default redis on localhost:6379
+[Thu Jan 22 2015 18:12:18 GMT+0400 (MSK)] ERROR TypeError: Cannot read property 'children' of undefined
+  at /usr/share/qbot/node_modules/hubot-scripts/src/scripts/defprogramming.coffee:30:16, <js>:16:35
+  at IncomingMessage.<anonymous> (/usr/share/qbot/node_modules/hubot/node_modules/scoped-http-client/src/index.js:80:22)
+  at IncomingMessage.emit (events.js:117:20)
+  at _stream_readable.js:944:16
+  at process._tickCallback (node.js:442:13)
+
+[Thu Jan 22 2015 18:12:47 GMT+0400 (MSK)] ERROR TypeError: Cannot read property 'children' of undefined
+  at /usr/share/qbot/node_modules/hubot-scripts/src/scripts/defprogramming.coffee:30:16, <js>:16:35
+  at IncomingMessage.<anonymous> (/usr/share/qbot/node_modules/hubot/node_modules/scoped-http-client/src/index.js:80:22)
+  at IncomingMessage.emit (events.js:117:20)
+  at _stream_readable.js:944:16
+  at process._tickCallback (node.js:442:13)
+
+Thu, 22 Jan 2015 14:16:02 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 14:16:02 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 18:16:02 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 18:16:04 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 18:16:05 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 18:16:05 GMT+0400 (MSK)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Thu Jan 22 2015 18:16:05 GMT+0400 (MSK)] INFO Using default redis on localhost:6379
+[Thu Jan 22 2015 18:16:16 GMT+0400 (MSK)] ERROR TypeError: Cannot read property 'children' of undefined
+  at /usr/share/qbot/node_modules/hubot-scripts/src/scripts/defprogramming.coffee:30:16, <js>:16:35
+  at IncomingMessage.<anonymous> (/usr/share/qbot/node_modules/hubot/node_modules/scoped-http-client/src/index.js:80:22)
+  at IncomingMessage.emit (events.js:117:20)
+  at _stream_readable.js:944:16
+  at process._tickCallback (node.js:442:13)
+
+[Thu Jan 22 2015 18:24:44 GMT+0400 (MSK)] ERROR ReferenceError: fillAddress is not defined
+  at TextListener.callback (/usr/share/qbot/node_modules/hubot-maps/src/maps.coffee:58:16, <js>:57:18)
+  at TextListener.Listener.call (/usr/share/qbot/node_modules/hubot/src/listener.coffee:27:7, <js>:23:14)
+  at Robot.receive (/usr/share/qbot/node_modules/hubot/src/robot.coffee:197:9, <js>:142:33)
+  at SlackBot.Adapter.receive (/usr/share/qbot/node_modules/hubot/src/adapter.coffee:66:5, <js>:47:25)
+  at SlackBot.message (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:135:7, <js>:166:21)
+  at Client.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:1:1, <js>:3:61)
+  at Client.emit (events.js:95:17)
+  at Client.onMessage (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/src/client.js:439:14)
+  at WebSocket.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/src/client.js:142:24)
+  at WebSocket.emit (events.js:98:17)
+  at Receiver.self._receiver.ontext (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:697:10)
+  at Receiver.opcodes.1.finish (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:397:14)
+  at Receiver.expectHandler (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:384:31)
+  at Receiver.add (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:93:24)
+  at CleartextStream.firstHandler (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:678:22)
+  at CleartextStream.emit (events.js:95:17)
+  at CleartextStream.<anonymous> (_stream_readable.js:765:14)
+  at CleartextStream.emit (events.js:92:17)
+  at emitReadable_ (_stream_readable.js:427:10)
+  at _stream_readable.js:420:7
+  at process._tickCallback (node.js:442:13)
+
+[Thu Jan 22 2015 18:25:10 GMT+0400 (MSK)] ERROR ReferenceError: fillAddress is not defined
+  at TextListener.callback (/usr/share/qbot/node_modules/hubot-maps/src/maps.coffee:58:16, <js>:57:18)
+  at TextListener.Listener.call (/usr/share/qbot/node_modules/hubot/src/listener.coffee:27:7, <js>:23:14)
+  at Robot.receive (/usr/share/qbot/node_modules/hubot/src/robot.coffee:197:9, <js>:142:33)
+  at SlackBot.Adapter.receive (/usr/share/qbot/node_modules/hubot/src/adapter.coffee:66:5, <js>:47:25)
+  at SlackBot.message (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:135:7, <js>:166:21)
+  at Client.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:1:1, <js>:3:61)
+  at Client.emit (events.js:95:17)
+  at Client.onMessage (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/src/client.js:439:14)
+  at WebSocket.<anonymous> (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/src/client.js:142:24)
+  at WebSocket.emit (events.js:98:17)
+  at Receiver.self._receiver.ontext (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:697:10)
+  at Receiver.opcodes.1.finish (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:397:14)
+  at Receiver.expectHandler (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:384:31)
+  at Receiver.add (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/Receiver.js:93:24)
+  at CleartextStream.firstHandler (/usr/share/qbot/node_modules/hubot-slack/node_modules/slack-client/node_modules/ws/lib/WebSocket.js:678:22)
+  at CleartextStream.emit (events.js:95:17)
+  at CleartextStream.<anonymous> (_stream_readable.js:765:14)
+  at CleartextStream.emit (events.js:92:17)
+  at emitReadable_ (_stream_readable.js:427:10)
+  at _stream_readable.js:420:7
+  at process._tickCallback (node.js:442:13)
+
+hubot-reaction@0.0.6 node_modules/hubot-reaction
+├── coffee-script@1.6.3
+├── request@2.33.0 (json-stringify-safe@5.0.0, forever-agent@0.5.2, aws-sign2@0.5.0, qs@0.6.6, tunnel-agent@0.3.0, oauth-sign@0.3.0, mime@1.2.11, node-uuid@1.4.2, tough-cookie@0.12.1, http-signature@0.10.1, hawk@1.0.0, form-data@0.1.4)
+└── cheerio@0.13.1 (underscore@1.5.2, entities@0.5.0, CSSselect@0.4.1, htmlparser2@3.4.0)
+Thu, 22 Jan 2015 14:29:51 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 14:29:51 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 18:29:51 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 18:29:53 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 18:29:54 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 18:29:54 GMT+0400 (MSK)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Thu Jan 22 2015 18:29:54 GMT+0400 (MSK)] INFO Using default redis on localhost:6379
+[Thu Jan 22 2015 18:35:15 GMT+0400 (MSK)] ERROR TypeError: Cannot call method 'send' of undefined
+  at SlackBot.send (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:181:16, <js>:216:33)
+  at Robot.send (/usr/share/qbot/node_modules/hubot/src/robot.coffee:395:19, <js>:364:42)
+  at /usr/share/qbot/node_modules/hubot-reaction/src/hubot-reaction.coffee:23:9, <js>:22:24
+  at Request._callback (/usr/share/qbot/node_modules/hubot-reaction/src/hubot-reaction.coffee:44:7, <js>:55:16)
+  at Request.self.callback (/usr/share/qbot/node_modules/hubot-reaction/node_modules/request/request.js:122:22)
+  at Request.emit (events.js:98:17)
+  at Request.<anonymous> (/usr/share/qbot/node_modules/hubot-reaction/node_modules/request/request.js:888:14)
+  at Request.emit (events.js:117:20)
+  at IncomingMessage.<anonymous> (/usr/share/qbot/node_modules/hubot-reaction/node_modules/request/request.js:839:12)
+  at IncomingMessage.emit (events.js:117:20)
+  at _stream_readable.js:944:16
+  at process._tickCallback (node.js:442:13)
+
+[Thu Jan 22 2015 18:35:39 GMT+0400 (MSK)] ERROR TypeError: Cannot call method 'send' of undefined
+  at SlackBot.send (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:181:16, <js>:216:33)
+  at Robot.send (/usr/share/qbot/node_modules/hubot/src/robot.coffee:395:19, <js>:364:42)
+  at /usr/share/qbot/node_modules/hubot-reaction/src/hubot-reaction.coffee:23:9, <js>:22:24
+  at Request._callback (/usr/share/qbot/node_modules/hubot-reaction/src/hubot-reaction.coffee:44:7, <js>:55:16)
+  at Request.self.callback (/usr/share/qbot/node_modules/hubot-reaction/node_modules/request/request.js:122:22)
+  at Request.emit (events.js:98:17)
+  at Request.<anonymous> (/usr/share/qbot/node_modules/hubot-reaction/node_modules/request/request.js:888:14)
+  at Request.emit (events.js:117:20)
+  at IncomingMessage.<anonymous> (/usr/share/qbot/node_modules/hubot-reaction/node_modules/request/request.js:839:12)
+  at IncomingMessage.emit (events.js:117:20)
+  at _stream_readable.js:944:16
+  at process._tickCallback (node.js:442:13)
+
+
+> msgpack@0.2.4 install /usr/share/qbot/node_modules/hubot-react/node_modules/msgpack
+> node-gyp rebuild
+
+make: Entering directory `/usr/share/qbot/node_modules/hubot-react/node_modules/msgpack/build'
+  CXX(target) Release/obj.target/libmsgpack/deps/msgpack/gcc_atomic.o
+  CXX(target) Release/obj.target/libmsgpack/deps/msgpack/object.o
+In file included from ../deps/msgpack/msgpack/type/fixint.hpp:22:0,
+                 from ../deps/msgpack/msgpack/type.hpp:3,
+                 from ../deps/msgpack/msgpack/object.hpp:418,
+                 from ../deps/msgpack/object.cpp:18:
+../deps/msgpack/msgpack/type/int.hpp: In static member function ‘static void msgpack::type::detail::object_char_sign<true>::make(msgpack::object&, char)’:
+../deps/msgpack/msgpack/type/int.hpp:102:22: warning: enumeral and non-enumeral type in conditional expression [enabled by default]
+../deps/msgpack/msgpack/type/int.hpp: In function ‘void msgpack::operator<<(msgpack::object&, signed char)’:
+../deps/msgpack/msgpack/type/int.hpp:206:76: warning: enumeral and non-enumeral type in conditional expression [enabled by default]
+../deps/msgpack/msgpack/type/int.hpp: In function ‘void msgpack::operator<<(msgpack::object&, short int)’:
+../deps/msgpack/msgpack/type/int.hpp:209:76: warning: enumeral and non-enumeral type in conditional expression [enabled by default]
+../deps/msgpack/msgpack/type/int.hpp: In function ‘void msgpack::operator<<(msgpack::object&, int)’:
+../deps/msgpack/msgpack/type/int.hpp:212:76: warning: enumeral and non-enumeral type in conditional expression [enabled by default]
+../deps/msgpack/msgpack/type/int.hpp: In function ‘void msgpack::operator<<(msgpack::object&, long int)’:
+../deps/msgpack/msgpack/type/int.hpp:215:76: warning: enumeral and non-enumeral type in conditional expression [enabled by default]
+../deps/msgpack/msgpack/type/int.hpp: In function ‘void msgpack::operator<<(msgpack::object&, long long int)’:
+../deps/msgpack/msgpack/type/int.hpp:218:76: warning: enumeral and non-enumeral type in conditional expression [enabled by default]
+In file included from ../deps/msgpack/msgpack/type.hpp:3:0,
+                 from ../deps/msgpack/msgpack/object.hpp:418,
+                 from ../deps/msgpack/object.cpp:18:
+../deps/msgpack/msgpack/type/fixint.hpp: In function ‘void msgpack::operator<<(msgpack::object&, msgpack::type::fix_int8)’:
+../deps/msgpack/msgpack/type/fixint.hpp:118:88: warning: enumeral and non-enumeral type in conditional expression [enabled by default]
+In file included from ../deps/msgpack/msgpack/type.hpp:3:0,
+                 from ../deps/msgpack/msgpack/object.hpp:418,
+                 from ../deps/msgpack/object.cpp:18:
+../deps/msgpack/msgpack/type/fixint.hpp: In function ‘void msgpack::operator<<(msgpack::object&, msgpack::type::fix_int16)’:
+../deps/msgpack/msgpack/type/fixint.hpp:121:88: warning: enumeral and non-enumeral type in conditional expression [enabled by default]
+../deps/msgpack/msgpack/type/fixint.hpp: In function ‘void msgpack::operator<<(msgpack::object&, msgpack::type::fix_int32)’:
+../deps/msgpack/msgpack/type/fixint.hpp:124:88: warning: enumeral and non-enumeral type in conditional expression [enabled by default]
+../deps/msgpack/msgpack/type/fixint.hpp: In function ‘void msgpack::operator<<(msgpack::object&, msgpack::type::fix_int64)’:
+../deps/msgpack/msgpack/type/fixint.hpp:127:88: warning: enumeral and non-enumeral type in conditional expression [enabled by default]
+  CC(target) Release/obj.target/libmsgpack/deps/msgpack/objectc.o
+  CC(target) Release/obj.target/libmsgpack/deps/msgpack/unpack.o
+../deps/msgpack/unpack.c: In function ‘template_callback_root’:
+../deps/msgpack/unpack.c:59:1: warning: missing initializer [-Wmissing-field-initializers]
+../deps/msgpack/unpack.c:59:1: warning: (near initialization for ‘o.type’) [-Wmissing-field-initializers]
+  CC(target) Release/obj.target/libmsgpack/deps/msgpack/vrefbuffer.o
+  CC(target) Release/obj.target/libmsgpack/deps/msgpack/zone.o
+  CC(target) Release/obj.target/libmsgpack/deps/msgpack/version.o
+  AR(target) Release/obj.target/deps/msgpack/msgpack.a
+  COPY Release/msgpack.a
+  CXX(target) Release/obj.target/msgpackBinding/src/msgpack.o
+../src/msgpack.cc: In function ‘v8::Handle<v8::Value> unpack(const v8::Arguments&)’:
+../src/msgpack.cc:360:1: warning: control reaches end of non-void function [-Wreturn-type]
+  SOLINK_MODULE(target) Release/obj.target/msgpackBinding.node
+  SOLINK_MODULE(target) Release/obj.target/msgpackBinding.node: Finished
+  COPY Release/msgpackBinding.node
+make: Leaving directory `/usr/share/qbot/node_modules/hubot-react/node_modules/msgpack/build'
+hubot-react@4.1.1 node_modules/hubot-react
+├── moment@2.8.4
+├── natural@0.1.29 (apparatus@0.0.8, sylvester@0.0.21)
+└── msgpack@0.2.4 (nan@1.0.0)
+Thu, 22 Jan 2015 14:42:00 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 14:42:00 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 18:42:00 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 18:42:01 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 18:42:03 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 18:42:03 GMT+0400 (MSK)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Thu Jan 22 2015 18:42:03 GMT+0400 (MSK)] INFO Using default redis on localhost:6379
+starting hubot-react...
+[Thu Jan 22 2015 18:43:27 GMT+0400 (MSK)] ERROR TypeError: Cannot call method 'send' of undefined
+  at SlackBot.send (/usr/share/qbot/node_modules/hubot-slack/src/slack.coffee:181:16, <js>:216:33)
+  at Robot.send (/usr/share/qbot/node_modules/hubot/src/robot.coffee:395:19, <js>:364:42)
+  at /usr/share/qbot/node_modules/hubot-reaction/src/hubot-reaction.coffee:23:9, <js>:22:24
+  at Request._callback (/usr/share/qbot/node_modules/hubot-reaction/src/hubot-reaction.coffee:44:7, <js>:55:16)
+  at Request.self.callback (/usr/share/qbot/node_modules/hubot-reaction/node_modules/request/request.js:122:22)
+  at Request.emit (events.js:98:17)
+  at Request.<anonymous> (/usr/share/qbot/node_modules/hubot-reaction/node_modules/request/request.js:888:14)
+  at Request.emit (events.js:117:20)
+  at IncomingMessage.<anonymous> (/usr/share/qbot/node_modules/hubot-reaction/node_modules/request/request.js:839:12)
+  at IncomingMessage.emit (events.js:117:20)
+  at _stream_readable.js:944:16
+  at process._tickCallback (node.js:442:13)
+
+Thu, 22 Jan 2015 14:45:08 GMT connect deprecated multipart: use parser (multiparty, busboy, formidable) npm module instead at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js:56:20
+Thu, 22 Jan 2015 14:45:08 GMT connect deprecated limit: Restrict request size at location of read at node_modules/hubot/node_modules/express/node_modules/connect/lib/middleware/multipart.js:86:15
+[Thu Jan 22 2015 18:45:08 GMT+0400 (MSK)] INFO Connecting...
+[Thu Jan 22 2015 18:45:10 GMT+0400 (MSK)] INFO Logged in as qbot of QIWI Moscow, but not yet connected
+[Thu Jan 22 2015 18:45:11 GMT+0400 (MSK)] INFO Slack client now connected
+[Thu Jan 22 2015 18:45:11 GMT+0400 (MSK)] ERROR hubot-heroku-alive included, but missing HUBOT_HEROKU_KEEPALIVE_URL. `heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web_url | cut -d= -f2)`
+[Thu Jan 22 2015 18:45:12 GMT+0400 (MSK)] INFO Using default redis on localhost:6379
+starting hubot-react...

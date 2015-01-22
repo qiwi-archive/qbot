@@ -1,0 +1,295 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/notxcain/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /usr/share/qbot/package.json
+verbose loadDefaults Qbot@0.0.0
+verbose readDependencies: using package.json deps
+verbose where, deps [ '/usr/share/qbot',
+verbose where, deps   [ 'hubot',
+verbose where, deps     'hubot-diagnostics',
+verbose where, deps     'hubot-google-images',
+verbose where, deps     'hubot-google-translate',
+verbose where, deps     'hubot-help',
+verbose where, deps     'hubot-heroku-keepalive',
+verbose where, deps     'hubot-maps',
+verbose where, deps     'hubot-pugme',
+verbose where, deps     'hubot-redis-brain',
+verbose where, deps     'hubot-rules',
+verbose where, deps     'hubot-scripts',
+verbose where, deps     'hubot-shipit',
+verbose where, deps     'hubot-slack',
+verbose where, deps     'hubot-youtube' ] ]
+verbose from cache /usr/share/qbot/package.json
+info preinstall Qbot@0.0.0
+verbose from cache /usr/share/qbot/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'hubot@^2.11.0', null ]
+silly cache add: name, spec, args [ undefined, 'hubot@^2.11.0', [ 'hubot@^2.11.0', null ] ]
+verbose parsed url { pathname: 'hubot@^2.11.0',
+verbose parsed url   path: 'hubot@^2.11.0',
+verbose parsed url   href: 'hubot@^2.11.0' }
+silly cache add: name, spec, args [ 'hubot', '^2.11.0', [ 'hubot', '^2.11.0' ] ]
+verbose parsed url { pathname: '^2.11.0', path: '^2.11.0', href: '^2.11.0' }
+verbose addNamed [ 'hubot', '^2.11.0' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'hubot', '^2.11.0' ]
+verbose raw, before any munging hubot
+verbose url resolving [ 'http://registry.npmjs.org/', './hubot' ]
+verbose url resolved http://registry.npmjs.org/hubot
+http GET http://registry.npmjs.org/hubot
+verbose cache add [ 'hubot-diagnostics@0.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'hubot-diagnostics@0.0.1',
+silly cache add: name, spec, args   [ 'hubot-diagnostics@0.0.1', null ] ]
+verbose parsed url { pathname: 'hubot-diagnostics@0.0.1',
+verbose parsed url   path: 'hubot-diagnostics@0.0.1',
+verbose parsed url   href: 'hubot-diagnostics@0.0.1' }
+silly cache add: name, spec, args [ 'hubot-diagnostics',
+silly cache add: name, spec, args   '0.0.1',
+silly cache add: name, spec, args   [ 'hubot-diagnostics', '0.0.1' ] ]
+verbose parsed url { pathname: '0.0.1', path: '0.0.1', href: '0.0.1' }
+verbose addNamed [ 'hubot-diagnostics', '0.0.1' ]
+verbose addNamed [ '0.0.1', '0.0.1' ]
+verbose cache add [ 'hubot-google-images@^0.1.2', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'hubot-google-images@^0.1.2',
+silly cache add: name, spec, args   [ 'hubot-google-images@^0.1.2', null ] ]
+verbose parsed url { pathname: 'hubot-google-images@^0.1.2',
+verbose parsed url   path: 'hubot-google-images@^0.1.2',
+verbose parsed url   href: 'hubot-google-images@^0.1.2' }
+silly cache add: name, spec, args [ 'hubot-google-images',
+silly cache add: name, spec, args   '^0.1.2',
+silly cache add: name, spec, args   [ 'hubot-google-images', '^0.1.2' ] ]
+verbose parsed url { pathname: '^0.1.2', path: '^0.1.2', href: '^0.1.2' }
+verbose addNamed [ 'hubot-google-images', '^0.1.2' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'hubot-google-images', '^0.1.2' ]
+verbose cache add [ 'hubot-google-translate@^0.1.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'hubot-google-translate@^0.1.0',
+silly cache add: name, spec, args   [ 'hubot-google-translate@^0.1.0', null ] ]
+verbose parsed url { pathname: 'hubot-google-translate@^0.1.0',
+verbose parsed url   path: 'hubot-google-translate@^0.1.0',
+verbose parsed url   href: 'hubot-google-translate@^0.1.0' }
+silly cache add: name, spec, args [ 'hubot-google-translate',
+silly cache add: name, spec, args   '^0.1.0',
+silly cache add: name, spec, args   [ 'hubot-google-translate', '^0.1.0' ] ]
+verbose parsed url { pathname: '^0.1.0', path: '^0.1.0', href: '^0.1.0' }
+verbose addNamed [ 'hubot-google-translate', '^0.1.0' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'hubot-google-translate', '^0.1.0' ]
+verbose cache add [ 'hubot-help@^0.1.1', null ]
+silly cache add: name, spec, args [ undefined, 'hubot-help@^0.1.1', [ 'hubot-help@^0.1.1', null ] ]
+verbose parsed url { pathname: 'hubot-help@^0.1.1',
+verbose parsed url   path: 'hubot-help@^0.1.1',
+verbose parsed url   href: 'hubot-help@^0.1.1' }
+silly cache add: name, spec, args [ 'hubot-help', '^0.1.1', [ 'hubot-help', '^0.1.1' ] ]
+verbose parsed url { pathname: '^0.1.1', path: '^0.1.1', href: '^0.1.1' }
+verbose addNamed [ 'hubot-help', '^0.1.1' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'hubot-help', '^0.1.1' ]
+verbose cache add [ 'hubot-heroku-keepalive@0.0.4', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'hubot-heroku-keepalive@0.0.4',
+silly cache add: name, spec, args   [ 'hubot-heroku-keepalive@0.0.4', null ] ]
+verbose parsed url { pathname: 'hubot-heroku-keepalive@0.0.4',
+verbose parsed url   path: 'hubot-heroku-keepalive@0.0.4',
+verbose parsed url   href: 'hubot-heroku-keepalive@0.0.4' }
+silly cache add: name, spec, args [ 'hubot-heroku-keepalive',
+silly cache add: name, spec, args   '0.0.4',
+silly cache add: name, spec, args   [ 'hubot-heroku-keepalive', '0.0.4' ] ]
+verbose parsed url { pathname: '0.0.4', path: '0.0.4', href: '0.0.4' }
+verbose addNamed [ 'hubot-heroku-keepalive', '0.0.4' ]
+verbose addNamed [ '0.0.4', '0.0.4' ]
+verbose cache add [ 'hubot-maps@0.0.1', null ]
+silly cache add: name, spec, args [ undefined, 'hubot-maps@0.0.1', [ 'hubot-maps@0.0.1', null ] ]
+verbose parsed url { pathname: 'hubot-maps@0.0.1',
+verbose parsed url   path: 'hubot-maps@0.0.1',
+verbose parsed url   href: 'hubot-maps@0.0.1' }
+silly cache add: name, spec, args [ 'hubot-maps', '0.0.1', [ 'hubot-maps', '0.0.1' ] ]
+verbose parsed url { pathname: '0.0.1', path: '0.0.1', href: '0.0.1' }
+verbose addNamed [ 'hubot-maps', '0.0.1' ]
+verbose addNamed [ '0.0.1', '0.0.1' ]
+verbose cache add [ 'hubot-pugme@^0.1.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'hubot-pugme@^0.1.0',
+silly cache add: name, spec, args   [ 'hubot-pugme@^0.1.0', null ] ]
+verbose parsed url { pathname: 'hubot-pugme@^0.1.0',
+verbose parsed url   path: 'hubot-pugme@^0.1.0',
+verbose parsed url   href: 'hubot-pugme@^0.1.0' }
+silly cache add: name, spec, args [ 'hubot-pugme', '^0.1.0', [ 'hubot-pugme', '^0.1.0' ] ]
+verbose parsed url { pathname: '^0.1.0', path: '^0.1.0', href: '^0.1.0' }
+verbose addNamed [ 'hubot-pugme', '^0.1.0' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'hubot-pugme', '^0.1.0' ]
+verbose cache add [ 'hubot-redis-brain@0.0.2', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'hubot-redis-brain@0.0.2',
+silly cache add: name, spec, args   [ 'hubot-redis-brain@0.0.2', null ] ]
+verbose parsed url { pathname: 'hubot-redis-brain@0.0.2',
+verbose parsed url   path: 'hubot-redis-brain@0.0.2',
+verbose parsed url   href: 'hubot-redis-brain@0.0.2' }
+silly cache add: name, spec, args [ 'hubot-redis-brain',
+silly cache add: name, spec, args   '0.0.2',
+silly cache add: name, spec, args   [ 'hubot-redis-brain', '0.0.2' ] ]
+verbose parsed url { pathname: '0.0.2', path: '0.0.2', href: '0.0.2' }
+verbose addNamed [ 'hubot-redis-brain', '0.0.2' ]
+verbose addNamed [ '0.0.2', '0.0.2' ]
+verbose raw, before any munging hubot-diagnostics/0.0.1
+verbose url resolving [ 'http://registry.npmjs.org/', './hubot-diagnostics/0.0.1' ]
+verbose url resolved http://registry.npmjs.org/hubot-diagnostics/0.0.1
+http GET http://registry.npmjs.org/hubot-diagnostics/0.0.1
+verbose raw, before any munging hubot-google-images
+verbose url resolving [ 'http://registry.npmjs.org/', './hubot-google-images' ]
+verbose url resolved http://registry.npmjs.org/hubot-google-images
+http GET http://registry.npmjs.org/hubot-google-images
+verbose raw, before any munging hubot-google-translate
+verbose url resolving [ 'http://registry.npmjs.org/', './hubot-google-translate' ]
+verbose url resolved http://registry.npmjs.org/hubot-google-translate
+http GET http://registry.npmjs.org/hubot-google-translate
+verbose raw, before any munging hubot-help
+verbose url resolving [ 'http://registry.npmjs.org/', './hubot-help' ]
+verbose url resolved http://registry.npmjs.org/hubot-help
+http GET http://registry.npmjs.org/hubot-help
+verbose raw, before any munging hubot-heroku-keepalive/0.0.4
+verbose url resolving [ 'http://registry.npmjs.org/',
+verbose url resolving   './hubot-heroku-keepalive/0.0.4' ]
+verbose url resolved http://registry.npmjs.org/hubot-heroku-keepalive/0.0.4
+http GET http://registry.npmjs.org/hubot-heroku-keepalive/0.0.4
+verbose raw, before any munging hubot-maps/0.0.1
+verbose url resolving [ 'http://registry.npmjs.org/', './hubot-maps/0.0.1' ]
+verbose url resolved http://registry.npmjs.org/hubot-maps/0.0.1
+http GET http://registry.npmjs.org/hubot-maps/0.0.1
+verbose raw, before any munging hubot-pugme
+verbose url resolving [ 'http://registry.npmjs.org/', './hubot-pugme' ]
+verbose url resolved http://registry.npmjs.org/hubot-pugme
+http GET http://registry.npmjs.org/hubot-pugme
+verbose raw, before any munging hubot-redis-brain/0.0.2
+verbose url resolving [ 'http://registry.npmjs.org/', './hubot-redis-brain/0.0.2' ]
+verbose url resolved http://registry.npmjs.org/hubot-redis-brain/0.0.2
+http GET http://registry.npmjs.org/hubot-redis-brain/0.0.2
+verbose cache add [ 'hubot-rules@^0.1.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'hubot-rules@^0.1.0',
+silly cache add: name, spec, args   [ 'hubot-rules@^0.1.0', null ] ]
+verbose parsed url { pathname: 'hubot-rules@^0.1.0',
+verbose parsed url   path: 'hubot-rules@^0.1.0',
+verbose parsed url   href: 'hubot-rules@^0.1.0' }
+silly cache add: name, spec, args [ 'hubot-rules', '^0.1.0', [ 'hubot-rules', '^0.1.0' ] ]
+verbose parsed url { pathname: '^0.1.0', path: '^0.1.0', href: '^0.1.0' }
+verbose addNamed [ 'hubot-rules', '^0.1.0' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'hubot-rules', '^0.1.0' ]
+verbose cache add [ 'hubot-scripts@^2.5.16', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'hubot-scripts@^2.5.16',
+silly cache add: name, spec, args   [ 'hubot-scripts@^2.5.16', null ] ]
+verbose parsed url { pathname: 'hubot-scripts@^2.5.16',
+verbose parsed url   path: 'hubot-scripts@^2.5.16',
+verbose parsed url   href: 'hubot-scripts@^2.5.16' }
+silly cache add: name, spec, args [ 'hubot-scripts', '^2.5.16', [ 'hubot-scripts', '^2.5.16' ] ]
+verbose parsed url { pathname: '^2.5.16', path: '^2.5.16', href: '^2.5.16' }
+verbose addNamed [ 'hubot-scripts', '^2.5.16' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'hubot-scripts', '^2.5.16' ]
+verbose cache add [ 'hubot-shipit@^0.1.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'hubot-shipit@^0.1.1',
+silly cache add: name, spec, args   [ 'hubot-shipit@^0.1.1', null ] ]
+verbose parsed url { pathname: 'hubot-shipit@^0.1.1',
+verbose parsed url   path: 'hubot-shipit@^0.1.1',
+verbose parsed url   href: 'hubot-shipit@^0.1.1' }
+silly cache add: name, spec, args [ 'hubot-shipit', '^0.1.1', [ 'hubot-shipit', '^0.1.1' ] ]
+verbose parsed url { pathname: '^0.1.1', path: '^0.1.1', href: '^0.1.1' }
+verbose addNamed [ 'hubot-shipit', '^0.1.1' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'hubot-shipit', '^0.1.1' ]
+verbose cache add [ 'hubot-slack@^3.2.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'hubot-slack@^3.2.1',
+silly cache add: name, spec, args   [ 'hubot-slack@^3.2.1', null ] ]
+verbose parsed url { pathname: 'hubot-slack@^3.2.1',
+verbose parsed url   path: 'hubot-slack@^3.2.1',
+verbose parsed url   href: 'hubot-slack@^3.2.1' }
+silly cache add: name, spec, args [ 'hubot-slack', '^3.2.1', [ 'hubot-slack', '^3.2.1' ] ]
+verbose parsed url { pathname: '^3.2.1', path: '^3.2.1', href: '^3.2.1' }
+verbose addNamed [ 'hubot-slack', '^3.2.1' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'hubot-slack', '^3.2.1' ]
+verbose cache add [ 'hubot-youtube@^0.1.2', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'hubot-youtube@^0.1.2',
+silly cache add: name, spec, args   [ 'hubot-youtube@^0.1.2', null ] ]
+verbose parsed url { pathname: 'hubot-youtube@^0.1.2',
+verbose parsed url   path: 'hubot-youtube@^0.1.2',
+verbose parsed url   href: 'hubot-youtube@^0.1.2' }
+silly cache add: name, spec, args [ 'hubot-youtube', '^0.1.2', [ 'hubot-youtube', '^0.1.2' ] ]
+verbose parsed url { pathname: '^0.1.2', path: '^0.1.2', href: '^0.1.2' }
+verbose addNamed [ 'hubot-youtube', '^0.1.2' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'hubot-youtube', '^0.1.2' ]
+verbose raw, before any munging hubot-rules
+verbose url resolving [ 'http://registry.npmjs.org/', './hubot-rules' ]
+verbose url resolved http://registry.npmjs.org/hubot-rules
+http GET http://registry.npmjs.org/hubot-rules
+verbose raw, before any munging hubot-scripts
+verbose url resolving [ 'http://registry.npmjs.org/', './hubot-scripts' ]
+verbose url resolved http://registry.npmjs.org/hubot-scripts
+http GET http://registry.npmjs.org/hubot-scripts
+verbose raw, before any munging hubot-shipit
+verbose url resolving [ 'http://registry.npmjs.org/', './hubot-shipit' ]
+verbose url resolved http://registry.npmjs.org/hubot-shipit
+http GET http://registry.npmjs.org/hubot-shipit
+verbose raw, before any munging hubot-slack
+verbose url resolving [ 'http://registry.npmjs.org/', './hubot-slack' ]
+verbose url resolved http://registry.npmjs.org/hubot-slack
+http GET http://registry.npmjs.org/hubot-slack
+verbose raw, before any munging hubot-youtube
+verbose url resolving [ 'http://registry.npmjs.org/', './hubot-youtube' ]
+verbose url resolved http://registry.npmjs.org/hubot-youtube
+http GET http://registry.npmjs.org/hubot-youtube
+http 200 http://registry.npmjs.org/hubot-help
+silly get cb [ 200,
+silly get cb   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+silly get cb     etag: '"4GQJX6TKU1WS3NPQRCGAPXB4G"',
+silly get cb     'content-type': 'application/json',
+silly get cb     'cache-control': 'max-age=60',
+silly get cb     'content-length': '2632',
+silly get cb     'accept-ranges': 'bytes',
+silly get cb     date: 'Thu, 22 Jan 2015 13:17:27 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     age: '0',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-ams4121-AMS',
+silly get cb     'x-cache': 'HIT',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1421932646.970504,VS0,VE89',
+silly get cb     vary: 'Accept' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/notxcain/.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/notxcain/.npm/hubot-help'
+verbose mkdir done: /home/notxcain/.npm/hubot-help 755
+ERR! Error: No compatible version found: hubot-help@'^0.1.1'
+ERR! Valid install targets:
+ERR! ["0.1.1"]
+ERR!     at installTargetsError (/usr/share/npm/lib/cache.js:488:10)
+ERR!     at /usr/share/npm/lib/cache.js:375:15
+ERR!     at saved (/usr/share/npm/lib/utils/npm-registry-client/get.js:147:7)
+ERR!     at Object.oncomplete (/usr/lib/nodejs/graceful-fs.js:230:7)
+ERR! You may report this log at:
+ERR!     <http://bugs.debian.org/npm>
+ERR! or use
+ERR!     reportbug --attach /usr/share/qbot/npm-debug.log npm
+ERR! 
+ERR! System Linux 3.2.0-29-generic-pae
+ERR! command "node" "/usr/bin/npm" "install"
+ERR! cwd /usr/share/qbot
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! message No compatible version found: hubot-help@'^0.1.1'
+ERR! message Valid install targets:
+ERR! message ["0.1.1"]
+verbose exit [ 1, true ]
