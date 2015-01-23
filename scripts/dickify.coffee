@@ -19,11 +19,11 @@
     else
       result = 'ху'
       switch word[firstVowel]
-      when 'а' then result += 'я'
-      when 'о' then result += 'ё'
-      when 'у' then result += 'ю'
-      when 'э' then result += 'е'
-      else result += word[firstVowel]
+        when 'а' then result += 'я'
+        when 'о' then result += 'ё'
+        when 'у' then result += 'ю'
+        when 'э' then result += 'е'
+        else result += word[firstVowel]
       for i in [firstVowel+1...word.length]
         result += word[i]
       result
