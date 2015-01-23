@@ -38,9 +38,8 @@
     result
 
   module.exports = (robot) ->
-
-  robot.hear /!dickify (.+)/i, (msg) ->
-    msg.reply parse msg.match[1]
+    robot.hear /!dickify (.+)/i, (msg) ->
+      msg.reply parse msg.match[1]
 
   # robot.hear /badger/i, (msg) ->
   #   msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
